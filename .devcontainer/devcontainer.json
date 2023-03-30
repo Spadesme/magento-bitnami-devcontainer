@@ -1,0 +1,9 @@
+{
+    "name": "Magento Docker Compose (Ext bitnami)",
+	"dockerComposeFile":"docker-compose.yml"
+	,
+	"service": "magento",
+	"workspaceFolder": "/bitnami/magento",
+	"runServices": ["mariadb", "elasticsearch"],
+	"forwardPorts": [80]
+}
